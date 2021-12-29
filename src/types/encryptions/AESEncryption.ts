@@ -1,8 +1,7 @@
 import { CryptoAlgorithm } from '../..';
-import { EncryptionInfo } from './EncryptionInfo';
+import { Encryption } from './Encryption';
 
-export interface AESEncryption extends EncryptionInfo {
-    algo: CryptoAlgorithm.AES;
+export interface AESEncryption extends Encryption {
     iv: string;
     authTag: string;
 }
