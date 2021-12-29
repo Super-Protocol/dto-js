@@ -1,8 +1,11 @@
 {
-  "name": "sp-dto-js",
-  "version": "1.0.0",
+  "name": "@super-protocol/sp-dto-js",
+  "version": "0.0.1",
   "description": "SuperProtocol DTO",
   "main": "build/index.js",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "build": "rm -rf ./build && tsc"
   },
