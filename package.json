@@ -1,0 +1,25 @@
+{
+  "name": "sp-dto-js",
+  "version": "1.0.0",
+  "description": "SuperProtocol DTO",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Super-Protocol/sp-dto-js.git"
+  },
+  "keywords": [
+    "superprotocol"
+  ],
+  "author": "@Super-Protocol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Super-Protocol/sp-dto-js/issues"
+  },
+  "homepage": "https://github.com/Super-Protocol/sp-dto-js#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
