@@ -1,8 +1,5 @@
-import { CryptoAlgorithm } from '../..';
-import { Encryption } from './Encryption';
+import { EncryptionWithMacIV } from './EncryptionWithTag';
 
-export interface ECIESEncryption extends Encryption {
-    iv: string;
+export interface ECIESEncryption extends EncryptionWithMacIV {
     ephemPublicKey: string;
-    mac: string;
 }

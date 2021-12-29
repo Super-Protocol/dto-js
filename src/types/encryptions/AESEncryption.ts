@@ -1,7 +1,4 @@
-import { CryptoAlgorithm } from '../..';
-import { Encryption } from './Encryption';
+import { EncryptionWithMacIV } from './EncryptionWithTag';
 
-export interface AESEncryption extends Encryption {
-    iv: string;
-    authTag: string;
+export interface AESEncryption extends EncryptionWithMacIV {
 }
