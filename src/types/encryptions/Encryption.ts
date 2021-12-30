@@ -5,4 +5,5 @@ export interface Encryption {
     encoding: Encoding;
     key: string;
     cipher?: string;
+    ciphertext?: string;
 }
