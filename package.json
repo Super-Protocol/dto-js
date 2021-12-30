@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "rm -rf ./build && tsc",
+    "bump": "npm version patch && git push && git push --tags",
     "prepare": "npm run build"
   },
   "repository": {
