@@ -1,7 +1,7 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV } from './common';
 
-interface CAMELLIAEncryptionBasic extends EncryptionWithIV {
+export interface CAMELLIAEncryptionBasic extends EncryptionWithIV {
     cipher:
         | Cipher.CAMELLIA128 | Cipher.CAMELLIA192  | Cipher.CAMELLIA256
         | Cipher.CAMELLIA_128_CBC

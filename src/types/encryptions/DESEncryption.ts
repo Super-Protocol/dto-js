@@ -1,7 +1,7 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV } from './common';
 
-interface DESEncryptionBasic extends EncryptionWithIV {
+export interface DESEncryptionBasic extends EncryptionWithIV {
     cipher:
         | Cipher.DES | Cipher.DES3 | Cipher.DESX
         | Cipher.DES_CFB | Cipher.DES_CFB1 | Cipher.DES_CFB8

@@ -1,7 +1,7 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV } from './common';
 
-interface CASTEncryptionBasic extends EncryptionWithIV {
+export interface CASTEncryptionBasic extends EncryptionWithIV {
     cipher:
         | Cipher.CAST | Cipher.CAST_CBC
         | Cipher.CAST5_CBC | Cipher.CAST5_CFB

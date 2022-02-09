@@ -1,11 +1,11 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV, EncryptionWithMacIV } from './common';
 
-interface CHACHA20EncryptionBasic extends EncryptionWithIV {
+export interface CHACHA20EncryptionBasic extends EncryptionWithIV {
     cipher: Cipher.CHACHA20
 }
 
-interface CHACHA20EncryptionWithMac extends EncryptionWithMacIV {
+export interface CHACHA20EncryptionWithMac extends EncryptionWithMacIV {
     cipher: Cipher.CHACHA20_POLY1305
 }
 

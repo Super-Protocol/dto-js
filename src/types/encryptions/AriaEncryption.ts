@@ -1,7 +1,7 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV, EncryptionWithMacIV } from './common';
 
-interface ARIAEncryptionBasic extends EncryptionWithIV {
+export interface ARIAEncryptionBasic extends EncryptionWithIV {
     cipher:
         | Cipher.ARIA128 | Cipher.ARIA192  | Cipher.ARIA256
         | Cipher.ARIA_128_CFB | Cipher.ARIA_128_CFB1 | Cipher.ARIA_128_CFB8
@@ -14,7 +14,7 @@ interface ARIAEncryptionBasic extends EncryptionWithIV {
         | Cipher.ARIA_256_CTR | Cipher.ARIA_256_ECB  | Cipher.ARIA_256_OFB
 }
 
-interface ARIAEncryptionWithMac extends EncryptionWithMacIV {
+export interface ARIAEncryptionWithMac extends EncryptionWithMacIV {
     cipher:
         | Cipher.ARIA_128_CCM | Cipher.ARIA_128_GCM
         | Cipher.ARIA_192_CCM | Cipher.ARIA_192_GCM

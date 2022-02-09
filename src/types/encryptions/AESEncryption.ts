@@ -1,7 +1,7 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV, EncryptionWithMacIV } from './common';
 
-interface AESEncryptionBasic extends EncryptionWithIV {
+export interface AESEncryptionBasic extends EncryptionWithIV {
     cipher:
         | Cipher.AES128 | Cipher.AES192  | Cipher.AES256
         | Cipher.AES_192_CBC | Cipher.AES_128_CBC_HMAC_SHA1 | Cipher.AES_128_CBC_HMAC_SHA256
@@ -15,7 +15,7 @@ interface AESEncryptionBasic extends EncryptionWithIV {
         | Cipher.ID_AES128_WRAP_PAD | Cipher.ID_AES192_WRAP_PAD  | Cipher.ID_AES256_WRAP_PAD
 }
 
-interface AESEncryptionWithMac extends EncryptionWithMacIV {
+export interface AESEncryptionWithMac extends EncryptionWithMacIV {
     cipher:
         | Cipher.AES_128_CCM | Cipher.AES_128_GCM
         | Cipher.AES_192_CCM | Cipher.AES_192_GCM

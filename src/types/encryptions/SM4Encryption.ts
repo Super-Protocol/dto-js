@@ -1,7 +1,7 @@
 import { Cipher } from '../../enum';
 import { EncryptionWithIV } from './common';
 
-interface SM4EncryptionBasic extends EncryptionWithIV {
+export interface SM4EncryptionBasic extends EncryptionWithIV {
     cipher:
         | Cipher.SM4 | Cipher.SM4_CTR
         | Cipher.SM4_CBC | Cipher.SM4_CFB
