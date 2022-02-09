@@ -4,7 +4,7 @@ export * from './AriaEncryption';
 export * from './BFEncryption';
 export * from './CamelliaEncryption';
 export * from './CASTEncryption';
-export * from './CHACHA20Encryption';
+export * from './Chacha20Encryption';
 export * from './DESEncryption';
 export * from './ECIESEncryption';
 export * from './IDEAEncryption';
