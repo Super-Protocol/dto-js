@@ -1,5 +1,15 @@
 export enum CryptoAlgorithm {
     AES = "AES",
+    ARIA = "Aria",
+    BF = "BF",
+    CAMELLIA = "Camellia",
+    CAST = "CAST",
+    CHACHA20 = "CHACHA20",
+    DES = "DES",
+    ECIES = "ECIES",
+    IDEA = "IDEA",
+    RC = "RC",
     RSAHybrid = "RSA-Hybrid",
-    ECIES = "ECIES"
+    SEED = "Seed",
+    SM4 = "SM4",
 }
