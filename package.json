@@ -1,6 +1,6 @@
 {
   "name": "@super-protocol/sp-dto-js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "SuperProtocol DTO",
   "main": "build/index.js",
   "files": [
