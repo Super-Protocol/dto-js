@@ -1,8 +1,8 @@
-import { CryptoAlgorithm, Encoding, Cipher } from '../../../enum';
+import { CryptoAlgorithm, Cipher } from '../../../enum';
+import { DataEncoding } from '../../common/DataEncoding';
 
-export interface Encryption {
+export interface Encryption extends DataEncoding {
     algo: CryptoAlgorithm;
-    encoding: Encoding;
     key?: string;
     cipher?: Cipher;
     ciphertext?: string;
