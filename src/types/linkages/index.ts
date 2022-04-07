@@ -1,1 +1,1 @@
-export * from './LinkageInfo';
+export * from './Linkage';
