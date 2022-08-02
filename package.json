@@ -1,5 +1,5 @@
 {
-  "name": "@super-protocol/sp-dto-js",
+  "name": "@super-protocol/dto-js",
   "version": "0.0.13",
   "description": "SuperProtocol DTO",
   "main": "build/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Super-Protocol/sp-dto-js.git"
+    "url": "git+https://github.com/Super-Protocol/dto-js.git"
   },
   "keywords": [
     "superprotocol"
@@ -30,9 +30,9 @@
   "author": "@Super-Protocol",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Super-Protocol/sp-dto-js/issues"
+    "url": "https://github.com/Super-Protocol/dto-js/issues"
   },
-  "homepage": "https://github.com/Super-Protocol/sp-dto-js#readme",
+  "homepage": "https://github.com/Super-Protocol/dto-js#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",

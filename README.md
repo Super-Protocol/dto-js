@@ -1,1 +1,1 @@
-# sp-dto-js
+# dto-js
