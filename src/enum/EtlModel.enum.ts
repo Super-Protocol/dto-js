@@ -10,7 +10,7 @@ export enum EtlModelStandardSubtype {
     Boolean,
 }
 
-export enum EtlModelImageType {
+export enum EtlModelImageSubtype {
     JPEG,
     PNG,
     BMP,
