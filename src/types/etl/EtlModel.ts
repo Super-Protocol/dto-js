@@ -10,5 +10,5 @@ export interface EtlModel {
 
 export interface EtlModelMetadata {
     resourceContentType: ResourceContentType;
-    resource?: Resource | string;
+    resource?: Resource;
 }
