@@ -5,8 +5,10 @@ import { Resource } from "../resources";
 export interface EtlModel {
     type: EtlModelType;
     subtype: EtlModelStandardSubtype | EtlModelImageSubtype | null;
-    metadata?: {
-        resourceContentType: ResourceContentType;
-        resource?: Resource | string;
-    };
+    metadata?: EtlModelMetadata;
+}
+
+export interface EtlModelMetadata {
+    resourceContentType: ResourceContentType;
+    resource?: Resource | string;
 }
