@@ -6,8 +6,8 @@ export type EnrollRequest = {
 export type EnrollResponse = {
     nodeName: string;
     deviceId?: string;
-    tlbBlob?: Buffer;
-    keysBlob?: Buffer;
-    pubKeyBlob?: Buffer;
+    tlb?: Buffer;
+    keys?: Buffer;
+    pubKey?: Buffer;
     meta?: string;
 }
