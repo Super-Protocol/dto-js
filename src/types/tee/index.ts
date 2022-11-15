@@ -1,1 +1,1 @@
-export * from './tee'
+export * from './tee';
