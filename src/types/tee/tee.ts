@@ -11,11 +11,3 @@ export type EnrollResponse = {
     pubKeyBlob?: Buffer;
     meta?: string;
 }
-
-export type GetInfoResponse = {
-    nodeName: string;
-    deviceId: string;
-    tlb: Buffer;
-    publicKey: Buffer;
-    meta: string;
-}
