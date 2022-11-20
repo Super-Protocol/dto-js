@@ -4,7 +4,7 @@ export type EnrollRequest = {
 }
 
 export type EnrollResponse = {
-    nodeName: string;
+    nodeName?: string;
     deviceId?: string;
     tlb?: Buffer;
     keys?: Buffer;
